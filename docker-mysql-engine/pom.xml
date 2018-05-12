@@ -8,16 +8,14 @@
 		<version>1.5.6.RELEASE</version>
 	</parent>
 
-	<groupId>com.liumapp.demo.docker.mysql</groupId>
-	<artifactId>docker-mysql-demo</artifactId>
+	<groupId>com.liumapp.demo.docker.mysql.engine</groupId>
+	<artifactId>docker-mysql-engine</artifactId>
 	<version>v1.0.0</version>
 	<packaging>pom</packaging>
 
 	<properties>
-		<spring-cloud.version>Dalston.SR2</spring-cloud.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
 	</properties>
 
 	<developers>
@@ -29,19 +27,8 @@
 		</developer>
 	</developers>
 
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
-
-        <modules>
-    <module>docker-mysql-engine</module>
+  <modules>
+    <module>tool-a</module>
+    <module>model</module>
   </modules>
 </project>
