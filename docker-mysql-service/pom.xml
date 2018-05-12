@@ -8,8 +8,8 @@
 		<version>1.5.6.RELEASE</version>
 	</parent>
 
-	<groupId>com.liumapp.demo.docker.mysql</groupId>
-	<artifactId>docker-mysql-demo</artifactId>
+	<groupId>com.liumapp.demo.docker.mysql.service</groupId>
+	<artifactId>docker-mysql-service</artifactId>
 	<version>v1.0.0</version>
 	<packaging>pom</packaging>
 
@@ -40,9 +40,8 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
-        <modules>
-    <module>docker-mysql-engine</module>
-    <module>docker-mysql-service</module>
+  <modules>
+    <module>demo-api-a</module>
+    <module>demo-api-b</module>
   </modules>
 </project>
