@@ -5,3 +5,12 @@ Create a MySQL container in Docker and establish connections with other containe
 
 ### Start Mysql in docker 
 
+* pull mysql images :
+
+        docker pull mysql:5.5.60
+
+    or you can simply run 
+    
+        ./build-image.sh
+        
+                
