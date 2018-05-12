@@ -21,5 +21,7 @@ Create a MySQL container in Docker and establish connections with other containe
 
         docker-compose up -d mysql     
 
-        
+* stop mysql :
+    
+        docker-compose down        
                 
