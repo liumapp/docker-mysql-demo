@@ -13,4 +13,9 @@ Create a MySQL container in Docker and establish connections with other containe
     
         ./build-image.sh
         
+* in this project , we use ./mysql/conf and ./mysql/data to save data from docker mysql . 
+
+    so , plz rm the content in data , and do not remove the mysqld.conf file in ./mysql/conf 
+
         
+                
